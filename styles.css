@@ -4,11 +4,11 @@ body {
     margin: 0;
     background-color: #1b1b32;
     color: #f5f6f7;
-    font-family: Tahoma;
+    font-family: poppins;
     font-size: 16px;
   }
   
-  h1, p {
+  h1 {
     margin: 1em auto;
     text-align: center;
   }
@@ -17,14 +17,15 @@ body {
     width: 80%; /* Adjusted width */
     max-width: 600px; /* Adjusted max-width */
     min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
+    margin-left: 28%;
+   
   }
   
   fieldset {
     border: none;
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
+    margin-top: 17px;
   }
   
   fieldset:last-of-type {
@@ -34,6 +35,8 @@ body {
   label {
     display: block;
     margin: 0.5rem 0;
+    margin-top: 20px;
+
   }
   
   input, textarea, select {
@@ -77,3 +80,14 @@ body {
     color: #dfdfe2;
   }
   
+  input:hover{
+
+    border:1px solid#484883;
+    transition: 0.2s ease-in-out;
+  }
+
+p{
+
+  margin-left: 28%;
+}
+
